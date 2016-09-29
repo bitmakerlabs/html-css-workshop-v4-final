@@ -26,6 +26,11 @@ p {
   color: #666666;
 }
 
+.faded {
+  /* Set opacity of the text to be 0.7 */
+  opacity: 0.7;
+}
+
 img {
   /* Set max width to be 100% of the containing element */
   max-width: 100%;

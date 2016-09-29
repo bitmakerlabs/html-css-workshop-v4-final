@@ -1,12 +1,10 @@
 body {
   /* Set margin to 0 pixels on all sides */
   margin: 0px;
-  /* Set font size to be 20 pixels */
-  font-size: 20px;
-  /* Set line height to be 1.5 times larger than default */
-  line-height: 1.5;
   /* Set font family to be Helvetica or Arial */
   font-family: Arial, Helvetica;
+  /* Set the line height to be 1.5 times larger than the font size */
+  line-height: 1.5;
 }
 
 header {
@@ -59,8 +57,18 @@ footer {
 @media (max-width: 600px) {
 
   body {
-    /* Set font size to be 80% of the normal size */
-    font-size: 80%;
+    /* Set background-color of the body to be purple with wite text */
+    color: white;
+    background-color: purple;
+  }
+
+  p {
+    /* Did the declaration in the body change the font color? If not why? */
+    color: white;
+  }
+
+  h2 {
+    color: white;
   }
 
 }
